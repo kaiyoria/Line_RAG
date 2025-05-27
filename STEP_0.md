@@ -34,7 +34,8 @@
 ### 3.取得LINE API 鑰匙
 * 在 Line Official Account Manager 中，在 Messaging API 取得 Channel secret。
 * 在 Line Developer 中，在 Channel 的 Messaging API settings 取得 Channel access token。
-
-
+> Channel secret 用途：確認使用者傳送訊息的真實性，防止偽造、篡改訊息或發送惡意指令。
+> 
+> Channel access token 用途：授權機器人向 LINE 平台發送訊息、管理好友等操作
 
 [上一頁](README.md)| 第二頁 |[下一頁]
