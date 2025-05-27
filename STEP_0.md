@@ -1,4 +1,4 @@
-# 建立Line機器人
+# 一、建立Line機器人
 
 ### 1. 申請 LINE Developers 帳號
 * 前往 Line Developer [(點擊可直接進入)](https://developers.line.biz/zh-hant/)
