@@ -38,4 +38,4 @@
 > 
 > Channel access token 用途：授權機器人向 LINE 平台發送訊息、管理好友等操作
 
-[上一頁](README.md)| 第二頁 |[下一頁]
+[上一頁](README.md)| 第二頁 |[下一頁](STEP_1.md)
