@@ -13,4 +13,6 @@ LINE_CHANNEL_SECRET=(輸入您的LINE_CHANNEL_SECRET)
 GROQ_API_KEY=(輸入您的GROQ_API_KEY)
 ```
 
+### 3.
+
 [上一頁](STEP_1.md)| 第三頁 |[下一頁]
