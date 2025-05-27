@@ -1,4 +1,4 @@
-# 整合 Line 機器人與 Groq API 系統
+# 二、整合 Line 機器人與 Groq API 系統
 本專案使用 PyCharm 作為主要的程式編輯與執行環境
 
 ### 1.註冊Groq API
