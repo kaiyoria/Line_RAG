@@ -1,5 +1,0 @@
-# 註冊Line機器人
-
-前往Line Developer [(點擊可直接進入)](https://developers.line.biz/zh-hant/)
-
-
