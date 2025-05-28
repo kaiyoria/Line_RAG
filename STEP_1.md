@@ -1,8 +1,8 @@
 # 一、建立 Line 機器人
 
-### 1. 申請 LINE Developers 帳號
+### 1. 申請 Line Developers 帳號
 * 前往 Line Developer [(點擊可直接進入)](https://developers.line.biz/zh-hant/)
-* 使用 LINE 帳號登入/註冊
+* 使用 Line 帳號登入/註冊
 * 建立一個 Provider (命名完可更改名稱)
 
 >圖1-1.建立帳號
