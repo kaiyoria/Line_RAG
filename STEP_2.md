@@ -21,10 +21,11 @@ pip install openai           #操作 Groq OpenAI API 的官方 Python 客戶端
 pip install python-dotenv    #載入 .env 檔案中的 API 金鑰
 ```
 - 功能介紹：實作與 Groq 提供的 OpenAI API（llama-3.3-70b-versatile模型）互動的聊天函式。
-    - 嘗試
-    - 嘗試
-    - 嘗試
-    - 嘗試
+
+    - 使用`dotenv`套件從`.env`檔案中載入環境變數`GROQ_API_KEY`，提高可維護性。
+    - 建立用`client`物件呼叫 Groq OpenAI API 功能，並使用環境變數的金鑰做身份驗證。
+    - 在訊息中，使用`content`指定 AI 用中文回覆，由`role: "system"`指定扮演「有幫助的 LINE 助手」。
+    - 建立`mychatbot`函式，根據使用者`prompt`，把回應加回對話紀錄並回傳回應給使用者
 
 
 * 如果想確認是否可以對話，可輸入以下程式並執行：
