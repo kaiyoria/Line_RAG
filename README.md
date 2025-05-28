@@ -4,4 +4,4 @@
 *  二、[建立 Groq API 對話系統](STEP_2.md)
 *  三、新版Line機器人
 
-上一頁| 第一頁 |[下一頁](STEP_1.md)
+$${\color{gray}上一頁}$$| 第一頁 |[下一頁](STEP_1.md)
