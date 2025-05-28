@@ -28,15 +28,13 @@ pip install line-bot-sdk     #Line Messaging API 的官方 Python SDK
 pip install python-dotenv    #載入 .env 檔案中的 API 金鑰
 ```
 * 功能介紹：整合 Groq OpenAI 聊天函式製作 LINE 聊天機器人後端服務。
-  * 使用 `dotenv` 套件讀取 `.env` 檔案中的環境變數：
-    * `LINE_CHANNEL_ACCESS_TOKEN`：LINE 機器人頻道的存取權。
-    * `LINE_CHANNEL_SECRET`：LINE 頻道的密鑰，用於驗證 webhook 請求合法性。
-  * 使用 `Flask` 建立一個本地 Web 伺服器，監聽 `/callback` 路由，接收來自 LINE 平台的 webhook 請求。
-  * 利用 `line-bot-sdk` 中的 `WebhookHandler` 驗證來自 LINE 的簽名，確保訊息安全。
+  * 使用`dotenv`套件讀取`.env`檔案中的環境變數
+  * 使用`line-bot-sdk`中的`WebhookHandler`驗證來自 Line 的認證以確保訊息安全。
+  * 使用`Flask`建立本地端伺服器，接收 Line webhook 發送到`/callback`路徑的請求。
   * 註冊訊息事件處理函式，當收到用戶文字訊息時：
     * 取得用戶傳來的文字內容
     * 呼叫自訂的 `mychatbot` 函式（來源於 `groq_openapi` 模組），取得聊天回覆
     * 利用 `line_bot_api.reply_message()` 回覆文字訊息給用戶
-  * 當直接執行程式時，啟動 Flask 伺服器監聽本機 5000 埠口。
+  * 執行程式時，啟動 Flask 伺服器監聽本機 5000 埠口。
 
 [上一頁](STEP_2.md)| [目錄](README.md) |[下一頁](STEP_4.md)
