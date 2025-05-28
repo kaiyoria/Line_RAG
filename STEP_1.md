@@ -31,7 +31,7 @@
 >
 ><img src="Photos/RAG_05.jpg" alt="RAG流程圖" width="1000" height="250"/>
 
->圖1-6.選擇已建立的Provider
+>圖1-6.選擇已建立的 Provider
 >
 ><img src="Photos/RAG_06.jpg" alt="RAG流程圖" width="400" height="400"/>
 ### 3.取得LINE API 鑰匙
@@ -41,11 +41,11 @@
 > 
 > Channel access token 用途：授權機器人向 LINE 平台發送訊息、管理好友等操作
 
->圖1-7.Channel secret位置
+>圖1-7.Channel secret 位置
 >
 ><img src="Photos/RAG_09.jpg" alt="RAG流程圖" width="500" height="200"/>
 
->圖1-8.Channel access token位置
+>圖1-8.Channel access token 位置
 >
 ><img src="Photos/RAG_08.jpg" alt="RAG流程圖" width="700" height="300"/>
 ### 補充
