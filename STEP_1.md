@@ -41,13 +41,13 @@
 > 
 > Channel access token 用途：授權機器人向 LINE 平台發送訊息、管理好友等操作
 
->圖1-7.複製Channel secret
+>圖1-7.Channel secret位置
 >
-><img src="Photos/RAG_09.jpg" alt="RAG流程圖" width="400" height="400"/>
+><img src="Photos/RAG_09.jpg" alt="RAG流程圖" width="500" height="200"/>
 
->圖1-8.複製Channel access token
+>圖1-8.Channel access token位置
 >
-><img src="Photos/RAG_08.jpg" alt="RAG流程圖" width="400" height="400"/>
+><img src="Photos/RAG_08.jpg" alt="RAG流程圖" width="700" height="300"/>
 ### 補充
 * Line Developer CSS 格式跑版
 
