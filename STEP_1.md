@@ -31,6 +31,9 @@
 >
 ><img src="Photos/RAG_05.png" alt="RAG流程圖" width="1000" height="250"/>
 
+>圖1-5.選擇已建立的Provider
+>
+><img src="Photos/RAG_06.png" alt="RAG流程圖" width="400" height="400"/>
 ### 3.取得LINE API 鑰匙
 * 在 Line Developer 中，點選 Channel 的 Basic settings 取得 Channel secret。
 * 在 Line Developer 中，點選 Channel 的 Messaging API settings 取得 Channel access token。
