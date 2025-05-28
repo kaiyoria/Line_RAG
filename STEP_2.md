@@ -4,7 +4,7 @@
 ### 1.註冊Groq API
 * 搜尋 Groq PlayGround ->點選 API KEYS -> Create API Key ->**複製API Key**
 
-### 2.建立存放金鑰匙的文件
+### 2.建立存放鑰匙的文件
 * 建立`.env`檔，將先前獲得的 Channel secret、Channel access token、Groq API key貼上`.env`檔內，如以下格式：
 
 ```
@@ -14,7 +14,12 @@ GROQ_API_KEY=(輸入您的GROQ_API_KEY)
 ```
 
 ### 3.實作對話系統
-- [檔案](Code/groq_openapi.py)
+- [實作檔案](Code/groq_openapi.py)
+- 安裝套件：
+```
+pip install openai           #操作 Groq OpenAI API 的官方 Python 客戶端
+pip install python-dotenv    #載入 .env 檔案中的鑰匙
+```
 - 功能介紹：實作與 Groq 提供的 OpenAI API（llama-3.3-70b-versatile模型）互動的聊天函式。
     - 嘗試
     - 嘗試
