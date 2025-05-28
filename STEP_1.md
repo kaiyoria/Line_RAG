@@ -7,11 +7,11 @@
 
 >圖1-1.建立帳號
 >
-><img src="Photos/RAG_01.png" alt="RAG流程圖" width="800" height="200"/>
+><img src="Photos/RAG_01.jpg" alt="RAG流程圖" width="800" height="200"/>
 
 >圖1-2.帳號命名
 >
-><img src="Photos/RAG_02.png" alt="RAG流程圖" width="400" height="200"/>
+><img src="Photos/RAG_02.jpg" alt="RAG流程圖" width="400" height="200"/>
 
 ### 2. 建立 Messaging API 頻道
 * 點擊建立頻道
@@ -21,19 +21,19 @@
 
 >圖1-3.建立頻道
 >
-><img src="Photos/RAG_03.png" alt="RAG流程圖" width="600" height="350"/>
+><img src="Photos/RAG_03.jpg" alt="RAG流程圖" width="600" height="350"/>
 
 >圖1-4.選擇頻道種類
 >
-><img src="Photos/RAG_04.png" alt="RAG流程圖" width="500" height="250"/>
+><img src="Photos/RAG_04.jpg" alt="RAG流程圖" width="500" height="250"/>
 
 >圖1-5.申請頻道 Messaging API
 >
-><img src="Photos/RAG_05.png" alt="RAG流程圖" width="1000" height="250"/>
+><img src="Photos/RAG_05.jpg" alt="RAG流程圖" width="1000" height="250"/>
 
->圖1-5.選擇已建立的Provider
+>圖1-6.選擇已建立的Provider
 >
-><img src="Photos/RAG_06.png" alt="RAG流程圖" width="400" height="400"/>
+><img src="Photos/RAG_06.jpg" alt="RAG流程圖" width="400" height="400"/>
 ### 3.取得LINE API 鑰匙
 * 在 Line Developer 中，點選 Channel 的 Basic settings 取得 Channel secret。
 * 在 Line Developer 中，點選 Channel 的 Messaging API settings 取得 Channel access token。
@@ -41,6 +41,13 @@
 > 
 > Channel access token 用途：授權機器人向 LINE 平台發送訊息、管理好友等操作
 
+>圖1-7.複製Channel secret
+>
+><img src="Photos/RAG_09.jpg" alt="RAG流程圖" width="400" height="400"/>
+
+>圖1-8.複製Channel access token
+>
+><img src="Photos/RAG_08.jpg" alt="RAG流程圖" width="400" height="400"/>
 ### 補充
 * Line Developer CSS 格式跑版
 
