@@ -14,10 +14,10 @@ GROQ_API_KEY=(輸入您的GROQ_API_KEY)
 ```
 
 ### 3.實作對話系統
-檔案：[groq_openapi.py](Code/groq_openapi.py)
+* 檔案：[groq_openapi.py](Code/groq_openapi.py)
 
 
-如果想確認是否可以對話，可輸入以下程式並執行：
+* 如果想確認是否可以對話，可輸入以下程式並執行：
 ```
 if __name__ == "__main__":
     print(mychatbot('你好 ，你是誰？'))
