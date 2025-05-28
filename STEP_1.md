@@ -7,11 +7,11 @@
 
 >圖1-1.建立帳號
 >
-><img src="圖片/RAG_01.png" alt="RAG流程圖" width="800" height="200"/>
+><img src="Photos/RAG_01.png" alt="RAG流程圖" width="800" height="200"/>
 
 >圖1-2.帳號命名
 >
-><img src="圖片/RAG_02.png" alt="RAG流程圖" width="400" height="200"/>
+><img src="Photos/RAG_02.png" alt="RAG流程圖" width="400" height="200"/>
 
 ### 2. 建立 Messaging API 頻道
 * 點擊建立頻道
@@ -21,15 +21,15 @@
 
 >圖1-3.建立頻道
 >
-><img src="圖片/RAG_03.png" alt="RAG流程圖" width="700" height="450"/>
+><img src="Photos/RAG_03.png" alt="RAG流程圖" width="700" height="450"/>
 
 >圖1-4.選擇頻道種類
 >
-><img src="圖片/RAG_04.png" alt="RAG流程圖" width="600" height="300"/>
+><img src="Photos/RAG_04.png" alt="RAG流程圖" width="600" height="300"/>
 
 >圖1-5.申請頻道 Messaging API
 >
-><img src="圖片/RAG_05.png" alt="RAG流程圖" width="1000" height="250"/>
+><img src="Photos/RAG_05.png" alt="RAG流程圖" width="1000" height="250"/>
 
 ### 3.取得LINE API 鑰匙
 * 在 Line Developer 中，點選 Channel 的 Basic settings 取得 Channel secret。
