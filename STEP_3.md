@@ -1,4 +1,4 @@
-# 整合 Line 機器人與 Groq API
+# 整合 LINE 機器人與 Groq API
 
 我使用 PyCharm 在本地端撰寫並執行程式，然而 LINE Bot 必須透過 webhook 接收用戶發送的訊息，為了讓本地端服務能夠對外開放，我使用 Flask 架設 HTTP 伺服器，透過 ngrok 將本地的埠號導向一個可供外部連線的公開網址。藉由此方法，LINE 的 webhook 能夠順利將事件傳送到本地伺服器，實現與用戶的即時互動。
 
@@ -19,7 +19,7 @@
 >
 ><img src="Photos/RAG_11.jpg" alt="RAG流程圖" width="650" height="250"/>
 
-### 2.
+### 2.實作 LINE 機器人後端系統
 * [檔案](Code/app.py)
 
 [上一頁](STEP_2.md)| [目錄](README.md) |[下一頁](STEP_4.md)
