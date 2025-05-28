@@ -1,11 +1,11 @@
 # 二、建立 Groq API 對話系統
 本專案使用 PyCharm 作為主要的程式編輯與執行環境
 
-### 1.註冊Groq API
-* 搜尋 Groq PlayGround ->點選 API KEYS -> Create API Key ->**複製API Key**
+### 1.註冊 Groq API
+* 搜尋 Groq PlayGround ->點選 API KEYS -> Create API Key ->**複製 API Key**
 
-### 2.建立存放鑰匙的文件
-* 建立`.env`檔，將先前獲得的 Channel secret、Channel access token、Groq API key貼上`.env`檔內，如以下格式：
+### 2.建立存放 API 金鑰的文件
+* 建立`.env`檔，將先前獲得的 Channel secret、Channel access token、Groq API key 貼上`.env`檔內，如以下格式：
 
 ```
 LINE_CHANNEL_ACCESS_TOKEN=(輸入您的LINE_CHANNEL_ACCESS_TOKEN)
@@ -18,7 +18,7 @@ GROQ_API_KEY=(輸入您的GROQ_API_KEY)
 - 安裝套件：
 ```
 pip install openai           #操作 Groq OpenAI API 的官方 Python 客戶端
-pip install python-dotenv    #載入 .env 檔案中的鑰匙
+pip install python-dotenv    #載入 .env 檔案中的 API 金鑰
 ```
 - 功能介紹：實作與 Groq 提供的 OpenAI API（llama-3.3-70b-versatile模型）互動的聊天函式。
     - 嘗試
