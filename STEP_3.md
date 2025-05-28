@@ -20,5 +20,6 @@
 ><img src="Photos/RAG_11.jpg" alt="RAG流程圖" width="650" height="250"/>
 
 ### 2.
+* [檔案](Code/app.py)
 
 [上一頁](STEP_2.md)| [目錄](README.md) |[下一頁](STEP_4.md)
