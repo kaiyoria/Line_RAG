@@ -21,11 +21,11 @@
 
 >圖1-3.建立頻道
 >
-><img src="Photos/RAG_03.png" alt="RAG流程圖" width="700" height="450"/>
+><img src="Photos/RAG_03.png" alt="RAG流程圖" width="600" height="350"/>
 
 >圖1-4.選擇頻道種類
 >
-><img src="Photos/RAG_04.png" alt="RAG流程圖" width="600" height="300"/>
+><img src="Photos/RAG_04.png" alt="RAG流程圖" width="500" height="250"/>
 
 >圖1-5.申請頻道 Messaging API
 >
