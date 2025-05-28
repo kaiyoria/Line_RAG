@@ -23,6 +23,8 @@ if __name__ == "__main__":
     print(mychatbot('你好 ，你是誰？'))
 ```
 
->圖1-7輸出結果
+>圖1-7.輸出結果
 >
+><img src="Photos/RAG_07.png" alt="RAG流程圖" width="900" height="150"/>
+
 [上一頁](STEP_1.md)| 第三頁 |[下一頁]
