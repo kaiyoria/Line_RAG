@@ -1,9 +1,9 @@
 # 三、整合 Line 機器人與 Groq API
-本專案使用 PyCharm 作為主要的程式編輯與執行環境。由於本地端開發環境無法直接接收外部請求，因此需透過 Ngrok 將本地端 Flask 所架設的伺服器公開，作為 LINE webhook 可連接的對應網址。
+本專案使用 PyCharm 作為主要的程式編輯與執行環境。由於本地端開發環境無法直接接收外部請求，因此需透過 Ngrok 將本地端 Flask 所架設的伺服器公開，作為 Line webhook 可連接的對應網址。
 
 ### 1.下載 Ngrok
 
-Ngrok 是替本地端程式建立對外公開網址，使 LINE 雲端平台能透過 webhook 成功連線並將用戶訊息傳送至 Flask 伺服器。每次啟動 Ngrok，系統會產生一組臨時網址；若需使用固定網址，則可升級為付費帳號綁定固定網域。
+Ngrok 是替本地端程式建立對外公開網址，使 Line 雲端平台能透過 webhook 成功連線並將用戶訊息傳送至 Flask 伺服器。每次啟動 Ngrok，系統會產生一組臨時網址；若需使用固定網址，則可升級為付費帳號綁定固定網域。
 
 * [造訪 Ngrok 官方網站（需註冊）](https://ngrok.com/)
 * 選擇下載 Download for Windows (64-Bit)。解壓縮後獲得`ngrok.exe`。
