@@ -11,13 +11,17 @@
 * 程式執行後開啟本地端 5000 埠口，透過 Ngrok 建立外部可連接網址供 LINE 使用。
 
 ### 2.結果
-* 當訊息文字內出現幫助/說明，會出現使用方法說明：
+* 傳送幫助/說明，會出現使用方法說明：
 * 首次加入好友時也會出現。
->圖1.17、1.18：輸入幫助/說明
+
+>圖1-17、1-18.輸入幫助/說明
 ><div style="display: flex; justify-content: space-between;">
->  <img src="Photos/RAG_17.jpg" alt="RAG流程圖2" width="240" height="300"/>
->  <img src="Photos/RAG_18.jpg" alt="RAG流程圖3" width="240" height="300"/>
+>  <img src="Photos/RAG_17.jpg" alt="RAG流程圖2" width="320" height="400"/>
+>  <img src="Photos/RAG_18.jpg" alt="RAG流程圖3" width="320" height="400"/>
 ></div>
+
+* 傳送更新資料，會出現更新文字說明：
+* 
 
 
 ---
