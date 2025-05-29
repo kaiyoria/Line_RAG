@@ -7,33 +7,32 @@ ngrok 是用來建立一個公開網址，讓 Line 平台可以連線到我本�
 
 * [造訪 ngrok 官方網站（需註冊）](https://ngrok.com/)
 * 選擇下載 Download for Windows (64-Bit)。解壓縮後獲得`ngrok.exe`。
+>圖1-10.下載 Download for Windows (64-Bit)
+>
+><img src="Photos/RAG_10.jpg" alt="RAG流程圖" width="500" height="220"/>
 * 回到網站，點擊 Your Authtoken，複製 Command Line 下的 Authtoken。
+>圖1-11.命令提示字元使用的 Authtoken
+>
+><img src="Photos/RAG_11.jpg" alt="RAG流程圖" width="650" height="250"/>
+
 * 開啟命令提示字元，切換到 `ngrok.exe` 所在資料夾，輸入 Authtoken。
 * 完成輸入後，會看到以下訊息：
   ```
   Authtoken saved to configuration file: C:\Users\你的使用者名稱\.ngrok2\ngrok.yml
   ```
->圖1-10.下載 Download for Windows (64-Bit)
->
-><img src="Photos/RAG_10.jpg" alt="RAG流程圖" width="500" height="220"/>
-
->圖1-11.命令提示字元使用的 Authtoken
->
-><img src="Photos/RAG_11.jpg" alt="RAG流程圖" width="650" height="250"/>
-
-### 2.實作 LINE 機器人後端系統
+### 2.實作回應系統
 
 Flask 是我在本地建立的一個伺服器，用來接收 Line 傳來的 webhook 訊息，並根據用戶輸入做出回應。
 
 * [實作檔案](Code/app.py)
 * 請先安裝以下套件：
 ```
-pip install flask            #建立一個能接收網路訊息並回應的伺服器
+pip install flask            #建立能接收訊息並回應的伺服器
 pip install line-bot-sdk     #Line Messaging API 的官方 Python SDK
 pip install python-dotenv    #載入 .env 檔案中的 API 金鑰
 ```
 * 功能介紹：整合 Groq OpenAI 聊天函式製作 LINE 聊天機器人後端服務。
-  * 使用`dotenv`套件讀取`.env`檔案中的環境變數
+  * 使用`dotenv`套件讀取`.env`檔案中的 API 金鑰
   * 使用`line-bot-sdk`中的`WebhookHandler`驗證來自 Line 的認證以確保訊息安全。
   * 使用`Flask`建立本地端伺服器，接收 Line webhook 發送到`/callback`路徑的請求。
   * 註冊訊息事件處理函式，當收到用戶文字訊息時：
@@ -41,5 +40,12 @@ pip install python-dotenv    #載入 .env 檔案中的 API 金鑰
     * 呼叫自訂的 `mychatbot` 函式（來源於 `groq_openapi` ），取得聊天回覆
     * 利用 `line_bot_api.reply_message()` 回覆文字訊息給用戶
   * 執行程式時，啟動 Flask 伺服器監聽本機 5000 埠口。
+
+### 3.執行與測試
+*開啟`ngrok.exe`，輸入 Flask 使用的埠口，例如我使用本機 5000 埠口：
+```
+ngrok http 5000
+```
+
 
 [上一頁](STEP_2.md)| [目錄](README.md) |[下一頁](STEP_4.md)
