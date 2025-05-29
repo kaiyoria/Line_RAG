@@ -20,7 +20,7 @@ ngrok 是用來建立一個公開網址，讓 Line 平台可以連線到我本�
   ```
   Authtoken saved to configuration file: C:\Users\你的使用者名稱\.ngrok2\ngrok.yml
   ```
-### 2.實作回應系統
+### 2.使用 Flask 串接 Line 機器人以及 Groq API
 
 Flask 是我在本地建立的一個伺服器，用來接收 Line 傳來的 webhook 訊息，並根據用戶輸入做出回應。
 
@@ -49,7 +49,7 @@ ngrok http 5000
 * 輸入完會出現以下畫面：
 >圖1-12.`ngrok.exe`的執行畫面
 >
-><img src="Photos/RAG_12.jpg" alt="RAG流程圖" width="650" height="250"/>
-
+><img src="Photos/RAG_12.jpg" alt="RAG流程圖" width="700" height="350"/>
+* 複製Forwarding後的網址(紅線圈選處)
 
 [上一頁](STEP_2.md)| [目錄](README.md) |[下一頁](STEP_4.md)
