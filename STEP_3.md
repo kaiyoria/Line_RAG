@@ -77,5 +77,6 @@ ngrok http 5000
 >
 ><img src="Photos/RAG_15.jpg" alt="RAG流程圖" width="480" height="603"/>
  
+---
 
 [上一頁](STEP_2.md)| [目錄](README.md) |[下一頁](STEP_4.md)
