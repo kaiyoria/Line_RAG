@@ -36,6 +36,12 @@
 * 建立檢索器`retriever`，能根據問題找到最相關的文章片段。
 * 設定`prompt_template`和`system_prompt`，引導模型用台灣人習慣的語氣，並模仿生活理財達人的語氣回覆。
 
+若想確認是否有執行成功：
+
+```
+if __name__ == "__main__":
+    print(chat_with_rag('最近有沒有咖啡的購買優惠 ?'))
+```
 
 
 [上一頁](STEP_3.md)| [目錄](README.md) |[下一頁](STEP_5.md)
