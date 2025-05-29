@@ -15,17 +15,19 @@
 
 ### 2. 建立 Messaging API 頻道
 * 點擊建立頻道
-* 選擇頻道種類： Messaging API
-* 頻道建立完成會轉到 Line Official Account
-* 點擊設定->啟用 Messaging API ->選擇先前建立的 Provider ->啟用 Message API
 
 >圖1-3.建立頻道
 >
 ><img src="Photos/RAG_03.jpg" alt="RAG流程圖" width="600" height="350"/>
 
+* 選擇頻道種類： Messaging API
+
 >圖1-4.選擇頻道種類
 >
 ><img src="Photos/RAG_04.jpg" alt="RAG流程圖" width="500" height="250"/>
+
+* 頻道建立完成會轉到 Line Official Account
+* 點擊設定->啟用 Messaging API ->選擇先前建立的 Provider ->啟用 Message API
 
 >圖1-5.申請頻道 Messaging API
 >
