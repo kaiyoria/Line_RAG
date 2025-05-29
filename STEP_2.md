@@ -29,7 +29,7 @@ pip install python-dotenv    #載入 .env 檔案中的 API 金鑰
     - 建立`mychatbot`函式，根據使用者`prompt`，把回應加回對話紀錄並回傳回應給使用者。
 
 
-* 如果想確認是否可以對話，可輸入以下程式並執行：
+* 如果想確認是否能成功對話，可輸入以下程式執行：
 ```
 if __name__ == "__main__":
     print(mychatbot('你好 ，你是誰？'))
