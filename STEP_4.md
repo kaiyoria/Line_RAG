@@ -42,9 +42,9 @@ if __name__ == "__main__":
     print(chat_with_rag('最近有沒有咖啡的購買優惠 ?'))
 ```
 
->圖1-9.輸出結果
+>圖1-16.輸出結果
 >
-><img src="Photos/RAG_07.jpg" alt="RAG流程圖" width="900" height="150"/>
+><img src="Photos/RAG_16.jpg" alt="RAG流程圖" width="900" height="150"/>
 
 ---
 
