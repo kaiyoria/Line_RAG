@@ -39,4 +39,6 @@ if __name__ == "__main__":
 >
 ><img src="Photos/RAG_07.jpg" alt="RAG流程圖" width="900" height="150"/>
 
+---
+
 [上一頁](STEP_1.md)| [目錄](README.md) |[下一頁](STEP_3.md)
