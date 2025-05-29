@@ -42,7 +42,7 @@ pip install python-dotenv    #載入 .env 檔案中的 API 金鑰
   * 執行程式時，啟動 Flask 伺服器監聽本機 5000 埠口。
 
 ### 3.執行與測試
-*開啟`ngrok.exe`，輸入 Flask 使用的埠口，例如我使用本機 5000 埠口：
+* 開啟`ngrok.exe`，輸入 Flask 使用的埠口，例如，使用本機 5000 埠口：
 ```
 ngrok http 5000
 ```
