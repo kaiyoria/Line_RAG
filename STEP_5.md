@@ -21,7 +21,13 @@
 ></div>
 
 * 傳送更新資料，會出現更新文字說明：
-* 
+   * 收到更新資料後，先傳送「資料更新中，請稍候...」
+   * 更新完資料後，才會傳送「資料更新完成！歡迎繼續提問」
+
+>圖1-19.輸入更新資料
+><div style="display: flex; justify-content: space-between;">
+>  <img src="Photos/RAG_19.jpg" alt="RAG流程圖2" width="320" height="400"/>
+></div>
 
 
 ---
