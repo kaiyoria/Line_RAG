@@ -35,7 +35,10 @@
 * 使用`CustomE5Embedding`確保查詢向量化時加入 `"query:"` 前綴，以符合 E5 格式。
 * 建立檢索器`retriever`，能根據問題找到最相關的文章片段。
 * 設定`prompt_template`和`system_prompt`，引導模型用台灣人習慣的語氣，並模仿生活理財達人的語氣回覆。
-
+* 定義 `chat_with_rag` 函式，整合檢索與生成流程：
+  * 根據使用者輸入的問題，從資料庫中擷取語意相近的文章片段。
+  * 將擷取到的內容填入`prompt_template`，搭配原始問題組成`final_prompt`。
+  * 呼叫 Groq API 生成語意回應，並回傳`response.choices[0].message.content`作為最終回答。
 * 如果想確認是否能成功對話，可輸入以下程式執行：
 ```
 if __name__ == "__main__":
