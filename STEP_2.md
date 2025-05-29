@@ -2,7 +2,7 @@
 本專案使用 PyCharm 作為主要的程式編輯與執行環境
 
 ### 1.註冊 Groq API
-* 搜尋 Groq PlayGround ->點選 API KEYS -> Create API Key ->**複製 API Key**
+* 搜尋 Groq PlayGround → 點選 API KEYS → Create API Key → **複製 API Key**
 
 ### 2.建立存放 API 金鑰的文件
 * 建立`.env`檔，作為存放所有 API 金鑰與設定的環境變數檔，方便管理與維護，修改設定時無需更改程式碼，只要更新`.env`即可。
