@@ -56,7 +56,7 @@ ngrok http 5000
 >
 ><img src="Photos/RAG_12.jpg" alt="RAG流程圖" width="700" height="350"/>
 
-* 複製 Forwarding 後的網址(紅線圈選處)，該網址為 Ngrok 提供的公開網址，用來對外映射本機的網址。
+* 複製 Forwarding 後的網址(紅線圈選處)，該網址為 Ngrok 提供的公開網址，用來對外映射本機伺服器的網址。
 * 將網址後加上`/callback`，貼入 Line Webhook URL 內。 **若未加上 /callback，Line webhook 的請求將無法正確傳送至 Flask 伺服器。**
 
 >圖1-13.將網址貼入 Line Webhook URL 內
