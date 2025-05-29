@@ -13,10 +13,11 @@
 ### 2.結果
 * 當訊息文字內出現幫助/說明，會出現使用方法說明：
 * 首次加入好友時也會出現。
-<div style="display: flex; justify-content: space-between;">
-  <img src="Photos/RAG_17.jpg" alt="RAG流程圖2" width="480" height="600"/>
-  <img src="Photos/RAG_18.jpg" alt="RAG流程圖3" width="480" height="600"/>
-</div>
+>圖1.17、1.18：輸入幫助/說明
+><div style="display: flex; justify-content: space-between;">
+>  <img src="Photos/RAG_17.jpg" alt="RAG流程圖2" width="240" height="300"/>
+>  <img src="Photos/RAG_18.jpg" alt="RAG流程圖3" width="240" height="300"/>
+></div>
 
 
 ---
