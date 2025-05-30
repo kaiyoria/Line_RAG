@@ -11,8 +11,10 @@
 * 程式執行後開啟本地端 5000 埠口，透過 Ngrok 建立外部可連接網址供 LINE 使用。
 
 ### 2.結果
-* 傳送幫助/說明，會出現使用方法說明：
-* 首次加入好友時也會出現。
+
+* 使用說明：
+  * 傳送幫助/說明，會出現使用方法說明：
+  * 首次加入好友時也會出現。
 
 >圖1-17、1-18.輸入幫助/說明
 ><div style="display: flex; justify-content: space-between;">
@@ -29,7 +31,7 @@
 >  <img src="Photos/RAG_19.jpg" alt="RAG流程圖2" width="320" height="400"/>
 ></div>
 
-* 傳送想詢問的優惠，會出現優惠推薦：
+* 直接輸入欲查詢的優惠資訊，例如「咖啡有優惠嗎」，系統會回應相關文章摘要內容：
 
 >圖1-20.詢問問題
 ><div style="display: flex; justify-content: space-between;">
