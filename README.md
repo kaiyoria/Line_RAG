@@ -11,11 +11,12 @@
 *  五、[整合 RAG 系統與 Line 機器人](STEP_5.md)
 
 ### 大綱：
+* 本專案使用 PyCharm 作為主要的程式編輯與執行環境。
 * 所有程式碼皆使用 Python 撰寫，主程式為`appV2.py`，搭配`Flask`建立本地伺服器。
 * 使用`PTTcrawler.py`從 PTT Lifeismoney 版爬取最新 100 篇文章，儲存為文字檔。
 * 使用`FAISS.py`將爬取的文章切割並轉換為向量儲存，建立本地知識庫。
 * 使用`rag_chain.py`實作 RAG 系統，整合 FAISS 與 Groq API 回答用戶問題。
-* 使用 Ngrok 建立對外公開網址，提供 Line Webhook 使用
+* 使用 Ngrok 建立對外公開網址，提供 Line Webhook 使用。
 * 使用`dev_server.py`自動啟動 Flask 與 Ngrok，完成 Webhook 設定。
 
 ### 功能：
