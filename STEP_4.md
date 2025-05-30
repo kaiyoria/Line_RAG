@@ -1,5 +1,5 @@
 # 四、建立 RAG 系統
-問答機器人已完成初步功能，接下來預計導入 RAG 架構，資料來源為 PTT Lifeismoney 版。PTT Lifeismoney 版內有許多鄉民會提供生活上的優惠資訊，如：7-11咖啡優惠、免費Line貼圖等等，可作為RAG的知識基礎。
+問答機器人已完成初步功能，接下來預計導入 RAG 架構，資料來源為 PTT Lifeismoney 版。PTT Lifeismoney 版內有許多鄉民會提供生活上的優惠資訊，如： 7-11 咖啡優惠、免費 Line 貼圖等等，可作為 RAG 的知識基礎。
 
 ### 1.PTT 爬蟲程式
 為了獲得最新最有價值的資料，從 Lifeismoney 版內抓取最新的100篇文章標題和內文。
@@ -17,25 +17,25 @@
 將爬下來的`ptt_lifeismoney_100.txt`進行切分、語意向量化，並使用 FAISS 建立可供檢索的向量資料庫。
 
 * [實作檔案](Code/FAISS.py)
-* 使用`LangChain` 提供的 `TextLoader`載入文字檔內容。
+* 使用`LangChain`提供的`TextLoader`載入文字檔內容。
 * 使用`RecursiveCharacterTextSplitter`將長文本切分為重疊區塊(chunk size=500, overlap=100)，以保留語境。
 * 採用 HuggingFace 上的`intfloat/multilingual-e5-small`模型進行向量嵌入。
-  * 加上 `"passage:"` 與 `"query:"` 前綴，符合 E5 模型訓練方式。
-* 使用 FAISS 建立向量索引，並儲存至本地目錄 `faiss_db/`。
+  * 加上`"passage:"`與`"query:"`前綴，符合 E5 模型訓練方式。
+* 使用 FAISS 建立向量索引，並儲存至本地目錄`faiss_db/`。
 * 執行完成，會顯示：
 ```
-向量資料庫已建立並儲存於 'faiss_db/' 目錄中。
+向量資料庫已建立並儲存於'faiss_db/'目錄中。
 ```
 
 ### 3. 啟動 RAG 問答流程
 將使用者的問題與 FAISS 資料庫中的 PTT 文章進行語意匹配，結合`llama-3.3-70b-versatile`模型產生回覆。
 
 * [實作檔案](Code/rag_chain.py)
-* 使用`FAISS.load_local()`載入先前建立的向量資料庫 `faiss_db/`。
-* 使用`CustomE5Embedding`確保查詢向量化時加入 `"query:"` 前綴，以符合 E5 格式。
+* 使用`FAISS.load_local()`載入先前建立的向量資料庫`faiss_db/`。
+* 使用`CustomE5Embedding`確保查詢向量化時加入`"query:"`前綴，以符合 E5 格式。
 * 建立檢索器`retriever`，能根據問題找到最相關的文章片段。
 * 設定`prompt_template`和`system_prompt`，引導模型用台灣人習慣的語氣，並模仿生活理財達人的語氣回覆。
-* 定義 `chat_with_rag` 函式，整合檢索與生成流程：
+* 定義`chat_with_rag`函式，整合檢索與生成流程：
   * 根據使用者輸入的問題，從資料庫中擷取語意相近的文章片段。
   * 將擷取到的內容填入`prompt_template`，搭配原始問題組成`final_prompt`。
   * 呼叫 Groq API 生成語意回應，並回傳`response.choices[0].message.content`作為最終回答。
