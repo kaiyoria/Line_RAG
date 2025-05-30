@@ -29,6 +29,13 @@
 >  <img src="Photos/RAG_19.jpg" alt="RAG流程圖2" width="320" height="400"/>
 ></div>
 
+* 傳送想詢問的優惠，會出現優惠推薦：
+
+>圖1-20.詢問問題
+><div style="display: flex; justify-content: space-between;">
+>  <img src="Photos/RAG_20.jpg" alt="RAG流程圖2" width="320" height="400"/>
+>  <img src="Photos/RAG_21.jpg" alt="RAG流程圖2" width="320" height="400"/>
+></div>
 
 ---
 [上一頁](STEP_4.md)| [目錄](README.md) |[下一頁](STEP_6.md)
