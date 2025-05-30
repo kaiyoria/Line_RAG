@@ -9,9 +9,9 @@
 * 將先前獲得的 Channel secret、Channel access token、Groq API key 貼上`.env`檔內，如以下格式：
 
 ```
-LINE_CHANNEL_ACCESS_TOKEN=(輸入您的LINE_CHANNEL_ACCESS_TOKEN)
-LINE_CHANNEL_SECRET=(輸入您的LINE_CHANNEL_SECRET)
-GROQ_API_KEY=(輸入您的GROQ_API_KEY)
+LINE_CHANNEL_ACCESS_TOKEN=(輸入您的 LINE_CHANNEL_ACCESS_TOKEN)
+LINE_CHANNEL_SECRET=(輸入您的 LINE_CHANNEL_SECRET)
+GROQ_API_KEY=(輸入您的 GROQ_API_KEY)
 ```
 
 ### 3.實作對話系統
@@ -25,7 +25,7 @@ pip install python-dotenv    #載入 .env 檔案中的 API 金鑰
 
     - 使用`dotenv`套件從`.env`檔案中載入環境變數`GROQ_API_KEY`，提高可維護性。
     - 建立用`client`物件呼叫 Groq OpenAI API 功能，並使用環境變數的金鑰做身份驗證。
-    - 在訊息中，使用`content`指定 AI 用中文回覆，由`role: "system"`指定扮演「有幫助的 LINE 助手」。
+    - 在訊息中，使用`content`指定 AI 用中文回覆，由`role: "system"`指定扮演「有幫助的 Line 助手」。
     - 建立`mychatbot`函式，根據使用者`prompt`，把回應加回對話紀錄並回傳回應給使用者。
 
 
