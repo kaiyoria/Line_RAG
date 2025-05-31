@@ -3,7 +3,7 @@
 
 ### 系統架構與功能設計
 
-* 實作檔案(Code/dev_server.py)
+* [實作檔案](Code/dev_server.py)
 * 使用`subprocess`模組啟動兩個子行程：
   * `appV2.py`(主程式)
   * `ngrok http 5000`(產生公開網址)
