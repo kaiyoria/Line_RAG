@@ -10,7 +10,7 @@
 *  四、[建立 RAG 系統](STEP_4.md)
 *  五、[整合 RAG 系統與 Line 機器人](STEP_5.md)
 *  六、[一鍵啟動 Line 機器人](STEP_6.md)
-*  補充：Line Developer CSS 格式跑版(ADD_1.md)
+*  補充：[Line Developer CSS 格式跑版](ADD_1.md)
 
 ### 大綱：
 * 本專案使用 PyCharm 作為主要的程式編輯與執行環境。
