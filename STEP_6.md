@@ -8,18 +8,18 @@
   * `appV2.py`(主程式)
   * `ngrok http 5000`(產生公開網址)
 * 從 Ngrok 回傳的所有資料中，找出`https`協定並回傳它的公開網址。
-* 若在開啟 Ngrok 後在瀏覽器輸入以下網址，能看到程式提及的 JSON 內容：
+* 在開啟 Ngrok 後，於瀏覽器中輸入以下網址，可查看對應的 JSON 資料內容：
 ```
 http://localhost:4040/api/tunnels
 ```
-* 將回傳網址加上`/callback`路徑，透過 HTTP PUT 請求呼叫 LINE 官方 API，設定 Webhook Endpoint。
-  * API 端點：`https://api.line.me/v2/bot/channel/webhook/endpoint`
+* 將回傳網址加上`/callback`，透過 HTTP 請求向 LINE API 更新 webhook 設定。
+  * Line API 端點：`https://api.line.me/v2/bot/channel/webhook/endpoint`
   * 認證方式：在`Authorization`標頭中加入`Bearer {你的 Channel Access Token}`
 
 ### 執行方式
 
 1. 備妥：
-   * `ngrok.exe`可執行檔放於當前目錄或已加入系統 PATH。
+   * `ngrok.exe`與`dev_server.py`放在相同資料夾中。
    * `.env`檔案中包含`LINE_CHANNEL_ACCESS_TOKEN`。
 2. 執行`dev_server.py`
 3. 成功啟動後，畫面會顯示：
@@ -30,4 +30,4 @@ http://localhost:4040/api/tunnels
    ```
 
 ---
-[上一頁](STEP_5.md)| [目錄](README.md) |[下一頁](STEP_7.md)
+[上一頁](STEP_5.md)| [目錄](README.md) |[下一頁](ADD_1.md)
