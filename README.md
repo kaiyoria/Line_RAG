@@ -51,4 +51,4 @@
 
 ---
 
-$${\color{gray}上一頁}$$| [目錄](README.md) |[下一頁](STEP_1.md)
+上一頁| [目錄](README.md) |[下一頁](STEP_1.md)
