@@ -1,6 +1,6 @@
 # 補充：Line Developer CSS 格式跑版
 
-**若你在開啟 LINE Developers 頁面時，畫面顯示異常、排版錯亂，是 CSS 沒有正確載入所致。**
+**若在開啟 LINE Developers 頁面時，畫面顯示異常、排版錯亂，是 CSS 沒有正確載入所致。**
 * 解決方式
   * 暫時關閉所有擋廣告插件
   * 按下`Ctrl + Shift + R`重整，會恢復原本介面。
